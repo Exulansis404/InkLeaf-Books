@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>InkLeaf: a calm book reader and writing desk for Android</title>
+<meta name="description" content="InkLeaf is a free, paper-like ebook reader and writing desk for Android phones and tablets.">
+<style>
+  :root { --paper:#f4f1ea; --ink:#26241f; --sub:#6d685d; --line:#d9d3c5; --panel:#ece7dc; }
+  @media (prefers-color-scheme: dark) { :root { --paper:#1b1a18; --ink:#e7e2d6; --sub:#a39d90; --line:#3a3731; --panel:#24221f; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:17px/1.65 Georgia, "Iowan Old Style", "Noto Serif", serif; }
+  main { max-width:720px; margin:0 auto; padding:56px 24px 40px; }
+  .mark { font-size:44px; line-height:1; }
+  h1 { font-size:46px; font-weight:normal; margin:10px 0 4px; letter-spacing:.5px; }
+  .tag { font-style:italic; color:var(--sub); font-size:19px; margin:0 0 30px; }
+  .btn { display:inline-block; background:var(--ink); color:var(--paper); text-decoration:none; padding:15px 28px; border-radius:30px;
+         font:600 17px/1 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .small { font:14px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color:var(--sub); margin-top:12px; }
+  h2 { font-weight:normal; font-size:26px; margin:46px 0 14px; border-bottom:1px solid var(--line); padding-bottom:8px; }
+  ul { padding-left:20px; } li { margin:6px 0; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:14px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:16px 18px; }
+  .card b { display:block; margin-bottom:4px; }
+  .card span { color:var(--sub); font-size:15px; }
+  ol li { margin:8px 0; }
+  a { color:inherit; }
+  footer { border-top:1px solid var(--line); margin-top:50px; padding-top:18px; color:var(--sub); font-size:15px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">❦</div>
+  <h1>InkLeaf</h1>
+  <p class="tag">A calm, paper-like book reader and writing desk for Android.</p>
+
+  <a class="btn" href="https://github.com/Exulansis404/InkLeaf-Books/releases/latest/download/InkLeaf.apk">⬇&nbsp; Download for Android</a>
+  <p class="small">Free · No ads · No account needed · Android 8 or newer, phones and tablets</p>
+
+  <h2>Made for reading</h2>
+  <div class="cards">
+    <div class="card"><b>Almost any book</b><span>EPUB, PDF, TXT, FB2, HTML, Markdown and comics (CBZ/CBR).</span></div>
+    <div class="card"><b>Easy on the eyes</b><span>E-ink style pages, beautiful fonts, light and dark themes, page-turn styles to choose from.</span></div>
+    <div class="card"><b>Mark it up</b><span>Highlight, underline, scribble with finger or stylus, add stickers and bookmarks.</span></div>
+    <div class="card"><b>Free bookstore</b><span>Thousands of free classics from Project Gutenberg, and free Bangla books.</span></div>
+    <div class="card"><b>Writing desk</b><span>Write stories with chapters, notes and character sheets. Read them as books, export as EPUB.</span></div>
+    <div class="card"><b>Your own backup</b><span>Optional backup to your own Google Drive, so a new phone gets everything back.</span></div>
+  </div>
+
+  <h2>How to install</h2>
+  <ol>
+    <li>On your Android phone or tablet, tap <a href="https://github.com/Exulansis404/InkLeaf-Books/releases/latest/download/InkLeaf.apk">Download for Android</a>.</li>
+    <li>Open the downloaded <b>InkLeaf.apk</b>.</li>
+    <li>If Android asks, allow installing apps from this source, then tap <b>Install</b>.</li>
+  </ol>
+  <p>After that, InkLeaf keeps itself up to date: when a new version is ready it asks you, and installs it with one tap.</p>
+
+  <footer>
+    Made by Rashed · <a href="mailto:rashed@musician.org">rashed@musician.org</a><br>
+    <a href="privacy.html">Privacy policy</a> · <a href="https://github.com/Exulansis404/InkLeaf-Books/releases">All versions</a>
+  </footer>
+</main>
+</body>
+</html>
